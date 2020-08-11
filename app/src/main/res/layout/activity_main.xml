@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="50dp">
+
+    <TextView
+        android:id="@+id/sample_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Hello World!"/>
+
+    <EditText
+        android:id="@+id/num_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/num_a"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/num_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/num_b"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/num_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/num_c"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/num_threads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/num_threads"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/type_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_schedule"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/chunk_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/chunk_size"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button"/>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+swig -java -package com.example.matrixmultiply -outdir src/main/java/com/example/matrixmultiply -o jni/example_wrap.c jni/example.i
+/home/jaroslav/Android/Sdk/ndk-bundle/ndk-build

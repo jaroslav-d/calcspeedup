@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Matrix Multiply</string>
+    <string name="text_button">calculate please</string>
+    <string name="num_a">number rows matrix A</string>
+    <string name="num_b">number columns matrix A and rows matrix B</string>
+    <string name="num_c">number columns matrix B</string>
+    <string name="field_random">field random</string>
+    <string name="num_threads">number threads</string>
+    <string name="type_schedule">type schedule</string>
+    <string name="chunk_size">chunk size</string>
+</resources>
